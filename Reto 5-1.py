@@ -21,6 +21,4 @@ if answer=="si":
     print("Usted obtuvo la cantidad de minutos: ", count)
 if answer =="no":
     print("Suscribete a MobileExito")
-    
-
 #print("Se registraron",count,"Referencias")
