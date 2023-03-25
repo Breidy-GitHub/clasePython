@@ -1,7 +1,7 @@
 cuenta=1000000
 print('Tu saldo en la cuenta es: ', cuenta)
 
-while cuenta >=1:
+while True:
     op=input('¿Desea despositar dinero en su cuenta o desea retirar? o escriba Fin para finalizar : ')
     if op =='Fin'or op=='fin':
         break
@@ -14,7 +14,7 @@ while cuenta >=1:
         cuenta +=dep
         print('Su saldo total en su cuenta es: ', cuenta)
     else:
-         print('Opción inválida. Por favor seleccione "Depositar" o "Retirar"')
+         print('Opción inválida. Por favor seleccione "Depositar", "Retirar o "Fin"para finalizar"')
          continue
       
 print('Gracias por utilizar nuestro sistema.')

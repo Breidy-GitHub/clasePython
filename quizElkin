@@ -1,4 +1,4 @@
-print('Combo 1:     valor 10000 \nCombo 2:      valor 11000\nCombo 3:      valor 10000')
+print('Combo 1:valor 10000 \nCombo 2:valor 11000\nCombo 3:valor 10000')
 orden=int(input('¿cuantas veces quiere ordenar? '))
 valorOrden=0
 while  orden>=1:
