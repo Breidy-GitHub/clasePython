@@ -1,6 +1,6 @@
 class Animal:
     #Atributos
-    nombre="" #Atributo
+    nombre=""
     edad=0
     #Metodos
     def __init__(self,nombre,edad):
