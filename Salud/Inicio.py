@@ -16,7 +16,7 @@ class Inicio:
         self.persona1.mostrarPersona()
         print("\nDatos de la persona 2:")
         self.persona2.mostrarPersona()
-        
+        #:.2f es para realizar un limitante en los valores decimales
         print("\nIMC(Índice de Masa Corporal) de la persona 1: {:.2f}".format(self.persona1.calcularImc()))
         if self.persona1.calcularImc() < 20:
             print("El peso está por debajo de lo ideal")
